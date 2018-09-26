@@ -1,0 +1,49 @@
+		Process Table
+
+            		Process    CPU      Total      Lowest
+	 System 	Identifier  Time     Time in   Level
+Event	  Time  	  (PID)	 Needed  System    Queue
+______________________________________________
+Arrival	     2	  101         3
+Departure     5	  101	             3	 2
+Arrival	     7	  102         1
+Departure     8	  102	             1	 1
+Arrival	     9	  103         7
+Arrival	     12	  104         5
+Arrival	     14	  105         1
+Departure     15	  105	             1	 1
+Arrival	     17	  106         1
+Arrival	     18	  107         50
+Departure     18	  106	             1	 1
+Arrival	     24	  108         2
+Departure     26	  108	             2	 1
+Departure     30	  103	             21	 3
+Departure     31	  104	             19	 3
+Arrival	     34	  109         12
+Arrival	     37	  110         3
+Departure     40	  110	             3	 2
+Arrival	     44	  111         10
+Arrival	     45	  112         48
+Arrival	     50	  113         1
+Departure     51	  113	             1	 1
+Arrival	     56	  114         1
+Departure     57	  114	             1	 1
+Arrival	     71	  115         3
+Departure     74	  115	             3	 2
+Departure     79	  109	             45	 4
+Arrival	     81	  116         2
+Departure     83	  116	             2	 1
+Departure     118	  111	             74	 4
+Departure     152	  112	             107	 4
+Departure     155	  107	             137	 4
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+		Summary
+
+Total Number of Jobs: 16
+Total Time of All Jobs in System: 421
+Average Response Time: 1.00
+Average Turnaround Time for the Jobs: 26.31
+Average Waiting Time: 16.94
+Average Throughput: 0.04
+Total CPU Ide Time: 2
